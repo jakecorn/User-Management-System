@@ -20,7 +20,7 @@ export default class User extends Component {
         var route = e.target.getAttribute("url");
         Swal.fire({
             title: 'Are you sure?',
-            text: "You wan't to delete this record?",
+            text: "You want to delete this record?",
             type: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
